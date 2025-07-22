@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: SpringBootCurdRest
+    
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springBoot
+    username: root
+    password: root1107
+    
+  jpa:
+    show-sql: true
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: update
+
+server:
+  port: 9090

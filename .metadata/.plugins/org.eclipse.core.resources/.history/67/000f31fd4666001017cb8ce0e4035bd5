@@ -1,0 +1,12 @@
+package com.example.demo.service;
+
+import com.example.demo.entity.Student;
+
+public interface StudentService {
+	
+	Integer save(Student s);
+	void update(Student s);
+	void delete(Integer id);
+
+
+}

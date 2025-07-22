@@ -1,0 +1,40 @@
+package com.example.demo.service.impl;
+
+import java.util.List;
+
+import com.example.demo.entity.Student;
+import com.example.demo.service.StudentService;
+
+public class StudentServiceImpl implements StudentService {
+
+	@Override
+	public Integer save(Student s) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void update(Student s) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void delete(Integer id) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public List<Student> getAllStudent() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Student getOneStudent(Integer id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
